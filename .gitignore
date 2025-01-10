@@ -1,0 +1,6 @@
+# Rust artifacts
+/target
+
+# Dev env
+.env
+

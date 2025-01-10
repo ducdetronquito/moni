@@ -1,0 +1,15 @@
+[package]
+name = "moni"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+async-trait = "0.1.84"
+chrono = "0.4.39"
+clap = { version = "4.5.23", features = ["derive"] }
+dotenvy = "0.15.7"
+mockall = "0.13.1"
+sqlx = { version = "0.8.3", features = ["postgres", "runtime-tokio", "tls-native-tls", "migrate", "macros", "uuid", "chrono"] }
+tokio = { version = "1.42.0", features = ["rt", "macros"] }
+uuid = { version = "1.11.1", features = ["v7"] }
